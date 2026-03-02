@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'rtk_tf_broadcaster = ins_localization.rtk_tf_broadcaster:main',
+            'show_rtk_path = ins_localization.show_rtk_path:main',
         ],
     },
 )
